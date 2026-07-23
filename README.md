@@ -1,10 +1,12 @@
-# Hidden Closet
+# Hidden Closet Engineering Case Study
 
 **Production AI Catalog Processing Pipeline**
 
-A backend system that takes raw supplier product feeds, generates safe AI-written captions, and publishes them to a live Telegram storefront — with multiple independent safety controls designed to prevent the one failure mode that actually matters: publishing a product under the wrong brand.
+Engineering case study of an AI-powered catalog processing pipeline designed to reduce the risk of incorrect product publication through deterministic validation, multi-layer safety controls, and production deployment.
 
-Full engineering write-up (architecture decisions, a real production incident, root cause, fix): **[docs/ENGINEERING_CASE_STUDY.md](./docs/ENGINEERING_CASE_STUDY.md)**
+This repository documents the engineering decisions behind the system, including architecture, safety mechanisms, production incidents, and the reasoning behind key design trade-offs.
+
+Read the full engineering case study: **[Engineering Case Study](./docs/ENGINEERING_CASE_STUDY.md)**
 
 ---
 
